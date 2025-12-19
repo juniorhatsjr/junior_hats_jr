@@ -160,7 +160,7 @@ footer a {
   </article>
   
    <article class="product">
-    <img src="https://imgur.com/hKV7oZN" alt="Chorme CT – Negro">
+    <img src="https://imgur.com/hKV7oZN.jpg" alt="Chorme CT – Negro">
     <div class="p-body">
       <div class="p-title">Chorme CT  – Negro</div>
       <div class="price">$1,600 MXN</div>
