@@ -12,12 +12,17 @@ body {
   padding:0;
   background:#f4f4f4;
 }
+
 header {
   background:#111;
   color:#fff;
   padding:20px;
   text-align:center;
 }
+
+header h1 { margin:0; }
+header p { margin-top:5px; font-size:1rem; }
+
 .catalogo {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
@@ -26,23 +31,39 @@ header {
   max-width:1200px;
   margin:auto;
 }
+
 .product {
   background:#fff;
   border-radius:10px;
   overflow:hidden;
   box-shadow:0 2px 5px rgba(0,0,0,0.2);
+  transition:0.3s;
 }
+
+.product:hover { transform:translateY(-5px); }
+
 .product img {
   width:100%;
   height:200px;
   object-fit:cover;
 }
+
 .p-body {
   padding:10px;
   text-align:center;
 }
-.p-title { font-weight:bold; }
-.price { margin-bottom:8px; font-weight:bold; }
+
+.p-title {
+  font-weight:bold;
+  margin-bottom:5px;
+  font-size:1rem;
+}
+
+.price {
+  margin-bottom:8px;
+  font-weight:bold;
+}
+
 .btn {
   display:inline-block;
   padding:8px 12px;
@@ -50,27 +71,122 @@ header {
   color:#fff;
   text-decoration:none;
   border-radius:5px;
-  cursor:pointer;
 }
+
+.btn:hover { background:#20b954; }
+
 footer {
   text-align:center;
   padding:20px;
   background:#111;
   color:#fff;
 }
-footer a { color:#ffcc00; text-decoration:none; }
+
+footer a {
+  color:#ffcc00;
+  text-decoration:none;
+}
+
+@media (max-width:600px){
+  .product img { height:180px; }
+}
 </style>
+</head>
 
-<script>
-function comprar(producto) {
-  const phone = "524428655081";
-  const mensaje = encodeURIComponent(
-    "Hola quiero comprar la gorra " + producto
-  );
+<body>
 
-  if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-    window.location.href =
-      "whatsapp://send?phone=" + phone + "&text=" + mensaje;
-  } else {
-    window.open(
-      "https://api.whatsapp.com/send?p
+<header>
+  <h1>🧢 Junior Caps JR</h1>
+  <p>Gorras estilo New Era calidad G5 - Venta al detalle y mayoreo</p>
+</header>
+
+<section class="catalogo">
+
+  <article class="product">
+    <img src="https://i.imgur.com/HLlskRP.jpg" alt="NY Classic – Negro">
+    <div class="p-body">
+      <div class="p-title">NY Classic – Negro</div>
+      <div class="price">$300 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20NY%20Classic%20Negro">
+      Comprar</a>
+    </div>
+  </article>
+
+  <article class="product">
+    <img src="https://imgur.com/FwFlSJC.jpg" alt="31 NY black – Negro">
+    <div class="p-body">
+      <div class="p-title">31 NY black – Negro</div>
+      <div class="price">$2,000 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%2031%20NY%20Black">
+      Comprar</a>
+    </div>
+  </article>
+
+  <article class="product">
+    <img src="https://imgur.com/dDoFbWn.jpg" alt="Barbas Galaxy – Negro">
+    <div class="p-body">
+      <div class="p-title">Barbas Galaxy – Negro</div>
+      <div class="price">$2,000 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Barbas%20Galaxy">
+      Comprar</a>
+    </div>
+  </article>
+
+  <article class="product">
+    <img src="https://imgur.com/2WIk8sw.jpg" alt="LA Clauds 31 – Negro">
+    <div class="p-body">
+      <div class="p-title">LA Clauds 31 – Negro</div>
+      <div class="price">$2,000 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20LA%20Clauds%2031">
+      Comprar</a>
+    </div>
+  </article>
+
+  <article class="product">
+    <img src="https://imgur.com/ygpFh1E.jpg" alt="$ad boy DH – Negro">
+    <div class="p-body">
+      <div class="p-title">$ad boy DH – Negro</div>
+      <div class="price">$1,500 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Sad%20Boy%20DH">
+      Comprar</a>
+    </div>
+  </article>
+
+  <article class="product">
+    <img src="https://imgur.com/LOTRkoR.jpg" alt="Rocstar CT – Negro">
+    <div class="p-body">
+      <div class="p-title">Rocstar CT – Negro</div>
+      <div class="price">$1,600 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Rocstar%20CT">
+      Comprar</a>
+    </div>
+  </article>
+
+  <article class="product">
+    <img src="https://imgur.com/hKV7oZN.jpg" alt="Chorme CT – Negro">
+    <div class="p-body">
+      <div class="p-title">Chorme CT – Negro</div>
+      <div class="price">$1,600 MXN</div>
+      <a class="btn" target="_blank"
+      href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Chorme%20CT">
+      Comprar</a>
+    </div>
+  </article>
+
+</section>
+
+<footer>
+  <p>Síguenos en 
+    <a href="https://www.instagram.com/junior_hats_jr" target="_blank">Instagram</a>
+  </p>
+</footer>
+
+</body>
+</html>
+
