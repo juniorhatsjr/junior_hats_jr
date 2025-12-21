@@ -1,4 +1,5 @@
 
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -108,67 +109,65 @@ footer a {
     <div class="p-body">
       <div class="p-title">NY Classic – Negro</div>
       <div class="price">$300 MXN</div>
-    <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20NY%20Classic%20Negro">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20NY%20Classic%20Negro" target="_blank">Comprar</a>
     </div>
   </article>
+
   <article class="product">
     <img src="https://imgur.com/FwFlSJC.jpg" alt="31 NY black – Negro">
     <div class="p-body">
-      <div class="p-title">31 NY black– Negro</div>
+      <div class="p-title">31 NY black – Negro</div>
       <div class="price">$2,000 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%2031%20Hats%20Negro">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%2031%20NY%20Black" target="_blank">Comprar</a>
     </div>
   </article>
- 
 
-
- <article class="product">
+  <article class="product">
     <img src="https://imgur.com/dDoFbWn.jpg" alt="Barbas Galaxy – Negro">
     <div class="p-body">
       <div class="p-title">Barbas Galaxy – Negro</div>
       <div class="price">$2,000 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Barbas%20Hats%20Galaxy">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Barbas%20Galaxy" target="_blank">Comprar</a>
     </div>
   </article>
 
-   <article class="product">
-    <img src="https://imgur.com/2WIk8sw.jpg" alt="LA clauds 31 – Negro">
+  <article class="product">
+    <img src="https://imgur.com/2WIk8sw.jpg" alt="LA Clauds 31 – Negro">
     <div class="p-body">
-      <div class="p-title">LA clauds 31 – Negro</div>
+      <div class="p-title">LA Clauds 31 – Negro</div>
       <div class="price">$2,000 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20LA %20Clauds%2031">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20LA%20Clauds%2031" target="_blank">Comprar</a>
     </div>
   </article>
 
-  
-   <article class="product">
-    <img src="https://imgur.com/ygpFh1E.jpg" alt="$ad boy DH – Negro">
+  <article class="product">
+    <img src="https://imgur.com/ygpFh1E.jpg" alt="Sad Boy DH – Negro">
     <div class="p-body">
-      <div class="p-title">$ad boy DH – Negro</div>
+      <div class="p-title">Sad Boy DH – Negro</div>
       <div class="price">$1,500 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20$ad%20boy%20DH">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Sad%20Boy%20DH" target="_blank">Comprar</a>
     </div>
   </article>
 
-   <article class="product">
+  <article class="product">
     <img src="https://imgur.com/LOTRkoR.jpg" alt="Rocstar CT – Negro">
     <div class="p-body">
       <div class="p-title">Rocstar CT – Negro</div>
       <div class="price">$1,600 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Rocstar%20CT%20Barbas">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Rocstar%20CT" target="_blank">Comprar</a>
     </div>
   </article>
-  
-   <article class="product">
+
+  <article class="product">
     <img src="https://imgur.com/hKV7oZN.jpg" alt="Chorme CT – Negro">
     <div class="p-body">
-      <div class="p-title">Chorme CT  – Negro</div>
+      <div class="p-title">Chorme CT – Negro</div>
       <div class="price">$1,600 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Chorme%20CT%20Barbas">Comprar</a>
+      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Chorme%20CT" target="_blank">Comprar</a>
     </div>
   </article>
-</section>
 
+</section>
 
 <footer>
   <p>Síguenos en 
@@ -178,3 +177,4 @@ footer a {
 
 </body>
 </html>
+
