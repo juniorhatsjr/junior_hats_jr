@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -88,10 +87,6 @@ footer a {
   color:#ffcc00;
   text-decoration:none;
 }
-
-@media (max-width:600px){
-  .product img { height:180px; }
-}
 </style>
 </head>
 
@@ -105,65 +100,65 @@ footer a {
 <section class="catalogo">
 
   <article class="product">
-    <img src="https://i.imgur.com/HLlskRP.jpg" alt="NY Classic – Negro">
+    <img src="https://i.imgur.com/HLlskRP.jpg" alt="NY Classic Negro">
     <div class="p-body">
       <div class="p-title">NY Classic – Negro</div>
       <div class="price">$300 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20NY%20Classic%20Negro" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('NY Classic Negro'); return false;">Comprar</a>
     </div>
   </article>
 
   <article class="product">
-    <img src="https://imgur.com/FwFlSJC.jpg" alt="31 NY black – Negro">
+    <img src="https://imgur.com/FwFlSJC.jpg" alt="31 NY Black">
     <div class="p-body">
-      <div class="p-title">31 NY black – Negro</div>
+      <div class="p-title">31 NY Black – Negro</div>
       <div class="price">$2,000 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%2031%20NY%20Black" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('31 NY Black Negro'); return false;">Comprar</a>
     </div>
   </article>
 
   <article class="product">
-    <img src="https://imgur.com/dDoFbWn.jpg" alt="Barbas Galaxy – Negro">
+    <img src="https://imgur.com/dDoFbWn.jpg" alt="Barbas Galaxy">
     <div class="p-body">
       <div class="p-title">Barbas Galaxy – Negro</div>
       <div class="price">$2,000 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Barbas%20Galaxy" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('Barbas Galaxy Negro'); return false;">Comprar</a>
     </div>
   </article>
 
   <article class="product">
-    <img src="https://imgur.com/2WIk8sw.jpg" alt="LA Clauds 31 – Negro">
+    <img src="https://imgur.com/2WIk8sw.jpg" alt="LA Clauds 31">
     <div class="p-body">
       <div class="p-title">LA Clauds 31 – Negro</div>
       <div class="price">$2,000 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20LA%20Clauds%2031" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('LA Clauds 31 Negro'); return false;">Comprar</a>
     </div>
   </article>
 
   <article class="product">
-    <img src="https://imgur.com/ygpFh1E.jpg" alt="Sad Boy DH – Negro">
+    <img src="https://imgur.com/ygpFh1E.jpg" alt="Sad Boy DH">
     <div class="p-body">
       <div class="p-title">Sad Boy DH – Negro</div>
       <div class="price">$1,500 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Sad%20Boy%20DH" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('Sad Boy DH Negro'); return false;">Comprar</a>
     </div>
   </article>
 
   <article class="product">
-    <img src="https://imgur.com/LOTRkoR.jpg" alt="Rocstar CT – Negro">
+    <img src="https://imgur.com/LOTRkoR.jpg" alt="Rocstar CT">
     <div class="p-body">
       <div class="p-title">Rocstar CT – Negro</div>
       <div class="price">$1,600 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Rocstar%20CT" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('Rocstar CT Negro'); return false;">Comprar</a>
     </div>
   </article>
 
   <article class="product">
-    <img src="https://imgur.com/hKV7oZN.jpg" alt="Chorme CT – Negro">
+    <img src="https://imgur.com/hKV7oZN.jpg" alt="Chorme CT">
     <div class="p-body">
       <div class="p-title">Chorme CT – Negro</div>
       <div class="price">$1,600 MXN</div>
-      <a class="btn" href="https://wa.me/524428655081?text=Hola%20quiero%20comprar%20la%20gorra%20Chorme%20CT" target="_blank">Comprar</a>
+      <a class="btn" href="#" onclick="comprar('Chorme CT Negro'); return false;">Comprar</a>
     </div>
   </article>
 
@@ -175,6 +170,17 @@ footer a {
   </p>
 </footer>
 
+<!-- SCRIPT CLAVE PARA ANDROID + iOS -->
+<script>
+function comprar(producto) {
+  const numero = "524428655081";
+  const mensaje = "Hola, quiero comprar la gorra " + producto;
+  const url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
+  window.open(url, "_blank");
+}
+</script>
+
 </body>
 </html>
+
 
